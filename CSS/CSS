@@ -1,0 +1,53 @@
+sWindows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\adela.cadilova> dir
+
+
+    Directory: C:\Users\adela.cadilova
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-r---        15.01.2026      9:55                3D Objects
+d-r---        15.01.2026      9:55                Contacts
+d-----        15.01.2026      9:59                Documents
+d-r---        15.01.2026      9:55                Downloads
+d-r---        15.01.2026      9:55                Favorites
+d-r---        15.01.2026      9:55                Links
+d-r---        15.01.2026      9:55                Music
+d-r---        15.01.2026      9:59                OneDrive
+dar--l        15.01.2026      9:59                OneDrive - prgcons.cz
+d-r---        15.01.2026      9:55                Saved Games
+d-r---        15.01.2026      9:56                Searches
+d-r---        15.01.2026     10:28                Videos
+-a----        15.01.2026     10:53              0 style.css
+
+
+PS C:\Users\adela.cadilova> code .
+code : The term 'code' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+ spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ code .
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (code:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\adela.cadilova> makedir1
+makedir1 : The term 'makedir1' is not recognized as the name of a cmdlet, function, script file, or operable program. C
+heck the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ makedir1
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (makedir1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\adela.cadilova>
+PS C:\Users\adela.cadilova> explorer .
+PS C:\Users\adela.cadilova>
+
+
+
+
