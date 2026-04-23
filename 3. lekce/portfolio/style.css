@@ -1,25 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    background-color: rgb(151, 127, 155);
     text-align: center;
-    background: #fde9e9;
 }
 
-.menu {
-    margin: 20px;
-}
-
-button {
-    padding: 10px 15px;
+.menu a {
     margin: 5px;
-    font-size: 18px;
-    cursor: pointer;
+    padding: 8px;
+    background-color: rgb(128, 43, 69);
+    color: white;
+    text-decoration: none;
 }
 
-.card {
-    background: rgb(243, 203, 233);
-    padding: 20px;
+.box {
+    display: none;
+    background-color: white;
+    width: 250px;
     margin: 20px auto;
-    width: 60%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(138, 112, 153);
+    padding: 10px;
+    border: 1px solid rgb(112, 72, 72);
+}
+
+/* zobrazí se jen kliknuté */
+.box:target {
+    display: block;
 }

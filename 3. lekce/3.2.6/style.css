@@ -13,6 +13,7 @@ body {
 input {
     display: block;
     margin: 8px;
+    box-sizing: border-box;
 }
 
 input[type="email"],
