@@ -1,13 +1,13 @@
 body {
     font-family: Arial;
-    background-color: rgb(245, 191, 214);
+    background-color: rgb(96, 92, 151);
     text-align: center;
 }
 
 .menu a {
     margin: 5px;
     padding: 8px;
-    background-color: rgb(216, 115, 194);
+    background-color: rgb(95, 129, 180);
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
