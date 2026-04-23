@@ -1,14 +1,14 @@
 body {
     font-family: Arial;
-    background-color: rgb(151, 127, 155);
+    background-color: rgb(245, 191, 214);
     text-align: center;
 }
 
 .menu a {
     margin: 5px;
     padding: 8px;
-    background-color: rgb(128, 43, 69);
-    color: white;
+    background-color: rgb(216, 115, 194);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ body {
     width: 250px;
     margin: 20px auto;
     padding: 10px;
-    border: 1px solid rgb(112, 72, 72);
+    border: 1px solid rgb(26, 7, 7);
 }
 
 /* zobrazí se jen kliknuté */
